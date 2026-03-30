@@ -1,0 +1,26 @@
+name: Runner
+version: 1.0.0
+main: fr.seedrunner.seedrunner.SeedRunner
+api-version: '1.21'
+description: Runner + SharedLife
+
+commands:
+  run:
+    description: Reset complet avec seed optionnelle
+    usage: /run [seed]
+    permission: seedrunner.run
+  share:
+    description: Active ou désactive le partage de vie
+    usage: /share
+    permission: seedrunner.share
+  lobby:
+    description: Téléporte au lobby
+    usage: /lobby
+
+permissions:
+  seedrunner.run:
+    description: Lancer un reset universel
+    default: op
+  seedrunner.share:
+    description: Activer/désactiver SharedLife
+    default: op

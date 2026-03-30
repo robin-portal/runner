@@ -1,0 +1,35 @@
+# ============================================
+#   SeedRunner - Configuration
+# ============================================
+
+settings:
+  # Préfixe des messages en jeu
+  prefix: "&8[&6SeedRunner&8]&r "
+  # Langue (fr / en)
+  language: fr
+  # Autoriser les joueurs non-op à utiliser /runner tp
+  allow-player-tp: false
+
+world-defaults:
+  # Générer les structures (villages, temples...)
+  generate-structures: true
+  # Difficulté par défaut (PEACEFUL, EASY, NORMAL, HARD)
+  difficulty: NORMAL
+  # Autoriser les monstres
+  allow-monsters: true
+  # Autoriser les animaux
+  allow-animals: true
+  # Activer le PvP
+  pvp: true
+  # Mode de jeu par défaut (SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR)
+  gamemode: SURVIVAL
+  # Garder les inventaires entre les mondes
+  keep-inventory-on-world-change: false
+
+# Mondes chargés automatiquement au démarrage
+auto-load:
+  enabled: true
+  worlds: []
+
+# Dossier de sauvegarde des métadonnées des mondes
+data-folder: "worlds-data"
